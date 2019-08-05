@@ -1,0 +1,12 @@
+[보드추가]
+1.환경설정->추가적인 보드 
+http://arduino.esp8266.com/stable/package_esp8266com_index.json
+
+2. 툴->보드매니저->esp8266 by ESP8266 Community
+
+3. 툴변경
+툴-> 보드 : Webmos D1 R1
+툴-> Upload Speed : 115200
+
+[온도감지센서 - DHT11]
+라이브러리 추가시 폴더명은 DHT가 되어야 하고 DHT 폴더에는 Adafruit_Sensor.h 파일이 반드시 존재
